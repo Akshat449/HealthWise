@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><ul><li><img src="logo +.png" alt=""><li></li>HealthWise</li></ul></div>
+            <h1>Get The Best Treatment</h1>
+            <p>Book appointments with experienced healthcare professionals</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="specialty-filter">
+            <h3 class="filter-title">Filter by Specialty</h3>
+            <div class="specialty-buttons">
+                <button class="specialty-btn active" data-specialty="all">All Specialties</button>
+                <button class="specialty-btn" data-specialty="Cardiology">Cardiology</button>
+                <button class="specialty-btn" data-specialty="Dermatology">Dermatology</button>
+                <button class="specialty-btn" data-specialty="Neurology">Neurology</button>
+                <button class="specialty-btn" data-specialty="Pediatrics">Pediatrics</button>
+                <button class="specialty-btn" data-specialty="Orthopedics">Orthopedics</button>
+                <button class="specialty-btn" data-specialty="Ophthalmology">Ophthalmology</button>
+                <button class="specialty-btn" data-specialty="Gynecology">Gynecology</button>
+                <button class="specialty-btn" data-specialty="General Surgery">General Surgery</button>
+            </div>
+        </div>
+        
+        <h2>Available Doctors</h2>
+        <div class="doctors-grid" id="doctorsContainer">
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="doctorModal">
+        <div class="modal-container">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <div class="modal-doctor-image" id="modalDoctorImage"></div>
+                <div class="modal-doctor-info">
+                    <h2 id="modalDoctorName">Dr. Rajesh Kumar</h2>
+                    <p class="modal-doctor-specialty" id="modalDoctorSpecialty">Cardiologist</p>
+                    <div class="modal-doctor-details">
+                        <p id="modalDoctorExperience">15 years experience</p>
+                        <p id="modalDoctorHospital">Apollo Hospitals, Delhi</p>
+                        <p id="modalDoctorEducation">MD, DM Cardiology, AIIMS Delhi</p>
+                    </div>
+                    <p class="consultation-fee" id="consultationFee">Consultation Fee: ₹1200</p>
+                </div>
+            </div>
+            
+            <div class="time-slots-section">
+                <h3 class="time-slots-title">Available Time Slots</h3>
+                
+                <div class="date-tabs">
+                    <div class="date-tab active">Today, Apr 12</div>
+                    <div class="date-tab">Tomorrow, Apr 13</div>
+                    <div class="date-tab">Monday, Apr 14</div>
+                    <div class="date-tab">Tuesday, Apr 15</div>
+                    <div class="date-tab">Wednesday, Apr 16</div>
+                </div>
+                
+                <div class="time-slots-grid">
+                    <div class="time-slot">09:00 AM</div>
+                    <div class="time-slot">09:30 AM</div>
+                    <div class="time-slot">10:00 AM</div>
+                    <div class="time-slot booked">10:30 AM</div>
+                    <div class="time-slot">11:00 AM</div>
+                    <div class="time-slot">11:30 AM</div>
+                    <div class="time-slot">12:00 PM</div>
+                    <div class="time-slot">12:30 PM</div>
+                    <div class="time-slot">02:00 PM</div>
+                    <div class="time-slot">02:30 PM</div>
+                    <div class="time-slot">03:00 PM</div>
+                    <div class="time-slot booked">03:30 PM</div>
+                    <div class="time-slot">04:00 PM</div>
+                    <div class="time-slot">04:30 PM</div>
+                    <div class="time-slot">05:00 PM</div>
+                </div>
+                
+                <button class="book-now-btn">Book Appointment</button>
+            </div>
+        </div>
+    </div>
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Find a Doctor</a></li>
+                    <li><a href="#">Specialties</a></li>
+                    <li><a href="#">Book Appointment</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Emergency Care</a></li>
+                    <li><a href="#">Primary Care</a></li>
+                    <li><a href="#">Specialty Care</a></li>
+                    <li><a href="#">Diagnostic Services</a></li>
+                    <li><a href="#">Wellness Programs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-map-marker-alt"></i> HealthWise, Patna City, 800004</p>
+                <p><i class="fas fa-phone"></i> 0612-2243546</p>
+                <p><i class="fas fa-envelope"></i> info@medicare.com</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 HealthWise. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="appointment.js"></script>
+</body>
+</html>
