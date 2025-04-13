@@ -1,4 +1,5 @@
 # HealthWise- Medical & Healthcare Website[by WebWizards]
+![logo](https://github.com/Akshat449/HealthWise/blob/main/logo%20%2B.png)
 
 A comprehensive medical and healthcare website providing online appointment booking, patient portal, and urgent care information.
 This project aims to provide a user-friendly interface for patients and doctors ,improving healthcare accessibility and efficiency.
@@ -24,7 +25,7 @@ CSS3: Styling and layout, including Flexbox for responsiveness.
 
 JavaScript (ES6): Functionality and interactivity.
 
-![logo](https://github.com/Akshat449/HealthWise/blob/main/logo%20%2B.png)
+
 
 
 
