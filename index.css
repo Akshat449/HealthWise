@@ -413,8 +413,6 @@ header input[type="text"] {
 }
 
 
-
-
 .cards-container {
     display: flex;
     overflow-x: auto;
@@ -681,11 +679,11 @@ h1 {
     padding: 30px 10px;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
 }
 
 .reviews-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome/Safari */
+    display: none; 
 }
 
 .review-card {
@@ -750,7 +748,6 @@ h1 {
     font-size: 0.9rem;
 }
 
-/* Navigation Arrows */
 .carousel-nav {
     display: flex;
     justify-content: center;
@@ -778,7 +775,6 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Scroll Indicator */
 .scroll-indicator {
     display: flex;
     justify-content: center;
@@ -800,7 +796,6 @@ h1 {
     transform: scale(1.2);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .review-card {
         flex: 0 0 85%;
@@ -963,11 +958,12 @@ h1 {
 }
 
 .footer-bottom {
-    background-color: #1a252f;
+    background-color: #2c3e50;
     padding: 20px 0;
     text-align: center;
     position: relative;
     top:0px ;
+    left: 27vw;
 }
 
 .footer-legal {
@@ -984,16 +980,6 @@ h1 {
     margin: 5px 0;
 }
 
-.legal-links a {
-    color: #bdc3c7;
-    text-decoration: none;
-    margin: 0 5px;
-    transition: color 0.3s;
-}
-
-.legal-links a:hover {
-    color: #3498db;
-}
 
 .footer-accreditations {
     margin-top: 15px;
