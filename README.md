@@ -24,5 +24,7 @@ CSS3: Styling and layout, including Flexbox for responsiveness.
 
 JavaScript (ES6): Functionality and interactivity.
 
+![logo](https://github.com/Akshat449/HealthWise/blob/main/logo%20%2B.png)
+
 
 
